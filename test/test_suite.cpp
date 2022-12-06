@@ -36,7 +36,7 @@
 
 
 TEST_CASE("Capacity", "[capacity]" ) {
-  avl_array<int, int, int, 1024> avl;
+  avl_array<int, int, int, 1024> avls;
   REQUIRE(avl.empty());
   REQUIRE(avl.size() == 0U);
   REQUIRE(avl.max_size() == 1024);
